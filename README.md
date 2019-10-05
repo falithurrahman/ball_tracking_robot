@@ -4,6 +4,6 @@ In this project i made a simple robot that will track the movement of designated
 
 <!-- ![block diagram](https://github.com/falithurrahman/ball_tracking_robot/blob/master/block_diagram.jpg) -->
 
-<img style="float: center;" src="https://github.com/falithurrahman/ball_tracking_robot/blob/master/block_diagram.jpg">
+<img style="float: right;" src="https://github.com/falithurrahman/ball_tracking_robot/blob/master/block_diagram.jpg">
 
 The camera, Logitech C270, will capture video frame to detect  position of the ball. The frame size is reduced smaller than the original frame in order to ease the computational work of raspberry pi. Next i perform basic thresholding and morphological filter operation to the frame until i get the binary image of the frame. Then i use *find_contour* function and extract the moment from contour of the ball. I compare the moment of this contour with the middle of the frame. If the difference between moment and middle of the frame is negative, i suppose the ball is at the left side of the robot, and vice versa. To make the robot follow the ball, i made the difference between the moment and middle of the frame is close to 0.
