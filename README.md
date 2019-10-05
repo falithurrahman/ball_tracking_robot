@@ -10,9 +10,7 @@ The camera, Logitech C270, will capture video frame to detect  position of the b
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/falithurrahman/ball_tracking_robot/blob/master/pos_diff.JPG">
-</p>
 
-<p align="center">
   <img width="460" height="300" src="https://github.com/falithurrahman/ball_tracking_robot/blob/master/neg_diff.JPG">
 </p>
 
