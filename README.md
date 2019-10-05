@@ -13,7 +13,7 @@ The camera, Logitech C270, will capture video frame to detect  position of the b
 </p>
 
 <p align="center">
-  <img  src="/https://github.com/falithurrahman/ball_tracking_robot/blob/master/neg_diff.JPG">
+  <img  src="https://github.com/falithurrahman/ball_tracking_robot/blob/master/neg_diff.JPG">
 </p>
 
 If the difference between moment and middle of the frame is negative, i suppose the ball is at the left side of the robot, and vice versa. To make the robot follow the ball, i made the difference between the moment and middle of the frame is close to 0. I use a simple if else trick to make it works. You can see the simple flowchart to make this robot works below.
