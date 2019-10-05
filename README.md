@@ -19,3 +19,5 @@ If the difference between moment and middle of the frame is negative, i suppose 
 <p align="center">
   <img  src="https://github.com/falithurrahman/ball_tracking_robot/blob/master/flowchart.jpg">
 </p>
+
+If you want to access the code, i make it available at this repository. And also if you have something that cross your mind and want to discuss just feel free to ask. Thanks.
